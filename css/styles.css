@@ -1,10 +1,17 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,body,div,span,applet,object,iframe, p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* 
 	Page
 	Code
 */
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
 
 html{
 	background-color: rgb(241, 241, 241);
@@ -13,7 +20,21 @@ html{
 header{
 	background-color: white;
 	width: 100vw;
-	padding: 1em 0;
+	padding: .2em 0;
+}
+
+section{
+	position: relative;
+	background-color: white;
+	display: inline-block;
+	width: 40em;
+	margin: 0 0 2em 2em;
+}
+
+form{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 7em;
 }
 
 #logo_container{
@@ -37,5 +58,77 @@ header{
 	vertical-align: middle;
 }
 
+#sub_button{
+	color: 				#000000;
+	cursor: 			pointer;
+	display: 			inline;
+	padding: 			.3em  1em .1em 1em;
+	border: 			.1em solid lightgrey;
+	border-left: 		none;
+	vertical-align: 	middle;
+	background-color: 	rgb(248, 248, 248);
+}
 
+#search_bar{
+	padding: 0 1em;
+	display: inline;
+	width: 40em;
+	height: 2.1em;
+	vertical-align: middle;
+}
 
+#icons{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#icon {
+	display: inline;
+	vertical-align: middle;
+}
+
+.icon_widget{
+	display: inline;
+	vertical-align: middle;
+	margin-right: 1em;
+}
+
+#upload_button{
+	cursor: pointer;
+	border: .1em solid lightgrey;
+	padding: .7em 1em;
+	font-weight: bold;
+	background-color: rgb(248, 248, 248);
+
+}
+
+#profile_pic{
+	display: inline;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.center{
+	margin: 1em 6em 0 6em;
+}
+
+#description{
+	background-color: white;
+	display: inline-block;
+	font-family: sans-serif;
+	width: 40em;
+	height: 10em;
+}
+#owner_info{
+	display: inline-block;
+}
+
+#owner_pic{
+	display: inline-block;
+	position: relative;
+	width: 1em;
+	height: 1em;
+	float: left;
+}
