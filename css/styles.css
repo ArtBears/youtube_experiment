@@ -123,12 +123,27 @@ form{
 }
 #owner_info{
 	display: inline-block;
+	position: relative;
 }
 
-#owner_pic{
+#owner_info h5{
 	display: inline-block;
-	position: relative;
-	width: 1em;
-	height: 1em;
-	float: left;
+	vertical-align: top;
+}
+#owner_pic{
+	display: inline;
+	margin: 1em 0 0 0;
+	height: 5em;
+	width: 5em;
+}
+
+#video_frame{
+	display: inline-block;
+}
+
+#video_title{
+	width:  640px;
+	background-color: white;
+	font-size: 80%;
+
 }
